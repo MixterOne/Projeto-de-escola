@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #205893;
+    --color-second: #f3d863;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(66, 66, 66);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.book{
+    width: 80px;
+}
+
+/******************
+*    HOME 
+*******************/
+
+.home{
+    background-image: url(../images/backg_home.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.home .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.home .header .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .header .nav .box-logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .header .nav .box-logo .logo{
+    width: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.home .header .nav .box-logo span{
+    font-size: 14px;
+}
+
+.home .header .nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.home .header .nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+
+
+.home .header .nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    transition: .2s ease-in;
+}
+
+.home .header .nav .effect{
+    border-bottom: 1px solid var(--color-second);
+}
+
+.home .header .nav ul li a:hover{
+    border-bottom: 1px solid var(--color-second);
+    color: #f3d863;
+}
+
+/******************
+*    HOME - BANNER
+*******************/
+
+.home .banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 270px;
+    width: 770px;
+    margin-top: -75px;
+    margin-left: -385px;
+    color: #fff;
+    text-align: center;
+}
+
+.home .banner span{
+    display: block;
+}
+
+.home .banner .slogan1{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.home .banner .title-barber{
+    font-size: 70px;
+}
+
+/******************
+*   ABOUT
+*******************/
+
+.about {
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container{
+    background-color: var(--color-second);
+    display: flex;
+}
+
+.about .box-left_img{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80vh;
+    background-size: cover;
+}
+
+.about .box-left_img img{
+    width: 90%;
+    height: 450px;
+}
+
+
+.about .experience{
+    width: 60%;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+
+.about .experience h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.about .experience h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-primary);
+    margin: 20px 0;
+}
+
+.about .experience .text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .experience .text p{
+    margin-bottom: 20px;
+    font-weight:400;
+    font-size: 17px;
+}
+
+
+/******************
+*    What We Do
+*******************/
+
+.what_we_do{
+    text-align: center;
+    background-color: #fff;
+}
+
+.what_we_do .boxes_what_we_do{
+    display: flex;
+    padding: 80px;
+}
+
+.what_we_do .box_left{
+    width: 60%;
+    background-image: url(../images/first_img.jpg);
+    background-size: cover;
+    margin-right: 10px;
+}
+
+
+.what_we_do .box_right {
+    width: 50%;
+}
+
+
+.what_we_do .box_right h2{
+    text-align: left;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.what_we_do .box_right h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-primary);
+    margin: 20px 0px 50px 0px;
+}
+
+.what_we_do .box_right p{
+    text-align: left;
+    margin: 30px 0px;
+}
+
+/******************
+*   HISTORY
+*******************/
+
+.history{
+    height: 100vh;
+    background: #252525;
+}
+
+.history .container{
+    display: flex;
+    padding: 20px;
+}
+
+.history .box_left_his {
+    width: 50%;
+}
+
+
+.history .box_left_his h2{
+    text-align: left;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+}
+
+.history .box_left_his h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-second);
+    margin: 20px 0px 0px 0px;
+}
+
+.history .box_left_his p{
+    text-align: left;
+    margin: 30px 0px;
+    color: #fff;
+    text-align: justify;
+}
+
+.history .container .box_right_his{
+    width: 50%;
+    height: 75vh;
+    background-image: url(../images/backg_history.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 110px;
+}
+
+/******************
+*    LOCATION
+*******************/
+
+.location{
+    padding: 30px 0;
+}
+
+.location h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--color-second);
+    margin-bottom: 20px;
+}
+
+.location .head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 40px;
+    width: 100%;
+}
+
+.location .head .info{
+    display: flex;
+    align-items: center;
+}
+
+.location .head .info .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-second);
+    padding: 10px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.location .head .info .text span{
+    display: block;
+    font-size: 13px;
+}
+
+.location .head .info .text span:first-child{
+    color: silver;
+}
+
+.location .head .info .text span:last-child{
+    color: white;
+}
+
+.location .map {
+    width: 100%;
+}
+
+.location .map iframe{
+    width: 100%;
+}
+
+/******************
+*    FOOTER
+*******************/
+
+.footer{
+    background-color: #191919;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 12px;
+}

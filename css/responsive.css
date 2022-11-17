@@ -1,0 +1,548 @@
+@media (min-width:320px) and (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+
+    .home .header .nav ul {
+        display: none;
+    }
+
+    .home .header .nav{
+        display: flex;
+        justify-content: center;
+     }
+
+    /****************
+        BANNER
+    *****************/
+
+    .home .banner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 270px;
+        width: 375px;
+        margin-top: -75px;
+        margin-left: -185px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .home .banner span{
+        display: block;
+    }
+    
+    .home .banner .slogan1{
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 5px;
+    }
+    
+    .home .banner .title-barber{
+        font-size: 20px;
+    }
+
+    /*******************
+       ABOUT
+    *******************/
+
+    .about .box-left_img{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 80vh;
+        background-size: cover;
+    }
+
+    .about .experience{
+        width: 30%;
+        color: #fff;
+        margin-left: 2%;
+        margin-top: 30px;
+    }
+    
+    .about .experience h2{
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .about .experience .text p{
+        margin-bottom: 20px;
+        font-weight:400;
+        font-size: 10px;
+    }
+
+
+    /*******************
+        What We Do
+    *******************/
+
+    .what_we_do .boxes_what_we_do{
+        display: flex;
+        padding: 80px;
+    }
+
+    
+
+    .what_we_do .box_left{
+        display: none;
+    }
+
+    .what_we_do .box_right {
+        width: 100%;
+    }
+
+    .what_we_do .box_right h2{
+        font-size: 20px;
+    }
+
+    .what_we_do .box_right p{
+        font-size: 12px;
+        text-align: left;
+        margin: 30px 0px;
+    }
+
+    /*******************
+       HISTORY
+    *******************/
+
+    .history .box_left_his h2{
+        font-size: 20px;
+    }
+
+    .history .box_left_his h2:after {
+        display: block;
+        content: '';
+        width: 60px;
+        height: 3px;
+        background: var(--color-second);
+        margin: 10px 0px 0px 0px;
+    }
+
+    .history .box_left_his {
+        width: 100%;
+    }
+
+    .history .box_left_his p{
+        text-align: center;
+        font-size: 12px;
+        margin: 20px 0px;
+        color: #fff;
+        text-align: justify;
+    }
+
+    .history .container .box_right_his{
+        display: none;
+    }
+
+    /*******************
+        LOCATION
+    *******************/
+
+    .location{
+        width: 100%;
+    }
+
+    .location h2{
+        font-size: 20px;
+    }
+
+    .location .head{
+        display: flex;
+        justify-content: space-between;
+        background-color: #191919;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .location .head .info .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--color-second);
+        padding: 6px;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .location .head .info .text span{
+        display: block;
+        font-size: 6px;
+    }
+
+    .location .map {
+        width: 100%;
+    }
+    
+    .location .map iframe{
+        width: 100%;
+    }
+}
+
+@media (min-width:426px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .home .header .nav ul {
+        display: none;
+    }
+
+    .home .header .nav{
+       display: flex;
+       justify-content: center;
+    }
+
+    /****************
+        BANNER
+    *****************/
+
+    .home .banner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 270px;
+        width: 375px;
+        margin-top: -75px;
+        margin-left: -180px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .home .banner span{
+        display: block;
+    }
+    
+    .home .banner .slogan1{
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+    
+    .home .banner .title-barber{
+        font-size: 20px;
+    }
+
+    /*******************
+       ABOUT
+    *******************/
+    .about .box-left_img{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 80vh;
+        background-size: cover;
+    }
+
+    .about .experience{
+        width: 30%;
+        color: #fff;
+        margin-left: 2%;
+        margin-top: 30px;
+    }
+    
+    .about .experience h2{
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .about .experience .text p{
+        margin-bottom: 20px;
+        font-weight:400;
+        font-size: 10px;
+    }
+
+    /*******************
+        What We Do
+    *******************/
+
+    .what_we_do .boxes_what_we_do{
+        padding: 80px;
+    }
+
+    .what_we_do .box_left{
+        display: none;
+    }
+
+    .what_we_do .box_right {
+        width: 100%;
+    }
+
+    .what_we_do .box_right p{
+        font-size: 12px;
+        text-align: left;
+        margin: 30px 0px;
+    }
+
+    /*******************
+       HISTORY
+    *******************/
+
+    .history .box_left_his h2{
+        font-size: 20px;
+    }
+
+    .history .box_left_his h2:after {
+        display: block;
+        content: '';
+        width: 60px;
+        height: 3px;
+        background: var(--color-second);
+        margin: 10px 0px 0px 0px;
+    }
+
+    .history .box_left_his {
+        width: 90%;
+    }
+
+    .history .box_left_his p{
+        text-align: center;
+        font-size: 12px;
+        margin: 20px 0px;
+        color: #fff;
+        text-align: justify;
+    }
+
+    .history .container .box_right_his{
+        display: none;
+    }
+
+    /*******************
+        LOCATION
+    *******************/
+
+    .location{
+        width: 100%;
+    }
+
+    .location h2{
+        font-size: 20px;
+    }
+
+    .location .head{
+        display: flex;
+        justify-content: space-between;
+        background-color: #191919;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .location .head .info .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--color-second);
+        padding: 6px;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .location .head .info .text span{
+        display: block;
+        font-size: 6px;
+    }
+
+    .location .map {
+        width: 100%;
+    }
+    
+    .location .map iframe{
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .home .header .nav ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+    }
+
+    .home .header .nav ul li a{
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 8px;
+        padding: 10px;
+        transition: .2s ease-in;
+    }
+
+    /****************
+        BANNER
+    *****************/
+
+    .home .banner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 270px;
+        width: 375px;
+        margin-top: -75px;
+        margin-left: -180px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .home .banner span{
+        display: block;
+    }
+    
+    .home .banner .slogan1{
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+    
+    .home .banner .title-barber{
+        font-size: 20px;
+    }
+
+    /*******************
+       ABOUT
+    *******************/
+    .about .box-left_img{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 80vh;
+        background-size: cover;
+    }
+
+    .about .experience{
+        width: 30%;
+        color: #fff;
+        margin-left: 2%;
+        margin-top: 30px;
+    }
+    
+    .about .experience h2{
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .about .experience .text p{
+        margin-bottom: 20px;
+        font-weight:400;
+        font-size: 12px;
+    }
+
+    /*******************
+        What We Do
+    *******************/
+
+    .what_we_do .boxes_what_we_do{
+        padding: 80px;
+    }
+
+    .what_we_do .box_left{
+        display: none;
+    }
+
+    .what_we_do .box_right {
+        width: 100%;
+    }
+
+    .what_we_do .box_right p{
+        font-size: 12px;
+        text-align: left;
+        margin: 30px 0px;
+    }
+
+    /*******************
+       HISTORY
+    *******************/
+
+    .history .box_left_his h2{
+        font-size: 40px;
+    }
+
+    .history .box_left_his h2:after {
+        display: block;
+        content: '';
+        width: 80px;
+        height: 3px;
+        background: var(--color-second);
+        margin: 10px 0px 0px 0px;
+    }
+
+    .history .box_left_his {
+        width: 90%;
+    }
+
+    .history .box_left_his p{
+        text-align: center;
+        font-size: 15px;
+        margin: 20px 0px;
+        color: #fff;
+        text-align: justify;
+    }
+
+    .history .container .box_right_his{
+        display: none;
+    }
+
+    /*******************
+        LOCATION
+    *******************/
+
+    .location{
+        width: 100%;
+    }
+
+    .location h2{
+        font-size: 40px;
+    }
+
+    .location .head{
+        display: flex;
+        justify-content: space-between;
+        background-color: #191919;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .location .head .info .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--color-second);
+        padding: 6px;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+
+    .location .head .info .text span{
+        display: block;
+        font-size: 12px;
+    }
+
+    .location .map {
+        width: 100%;
+    }
+    
+    .location .map iframe{
+        width: 100%;
+    }
+}
+
